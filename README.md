@@ -1,2 +1,52 @@
-# serenity-cucumber-selenium-rest-demo
-serenity demo
+# Demo Project: Serenity, Cucumber, Selenium and REST Assured
+
+This demo project illustrates Test Automation using Serenity, Cucumber, Selenium and REST Assured. 
+The project tests the [Trello](https://trello.com) online team collaboration application. There are two sample scenarios:
+- create trello boards from templates - this scenario is implemented via the UI with Selenium
+- perform various board actions and verify the activity log - this scenario is implemented via the publicly available [trello api](https://developers.trello.com/reference#introduction) with REST Assured.
+
+
+
+## Get the code
+
+Git:
+
+    git clone https://github.com/pisqa/serenity-cucumber-selenium-rest-demo.git
+    cd serenity-cucumber-selenium-rest-demo
+
+
+Or simply [download a zip](https://github.com/pisqa/serenity-cucumber-selenium-rest-demo/archive/master.zip) file.
+
+## Configure trello credentials
+
+1. create a new trello [account](https://trello.com/signup)
+1. get the API Key and Token for your account - log into trello and go to [https://trello.com/app-key](https://trello.com/app-key):
+    
+<img src="https://user-images.githubusercontent.com/57501449/74739798-e4a7f180-5259-11ea-8a33-6549c60767a9.png" width="450" >
+
+1.   Edit  `serenity-cucumber-selenium-rest-demo/src/test/resources/serenity.conf`
+2. Set the trello credential properties:
+
+<img src="https://user-images.githubusercontent.com/57501449/74740696-b1fef880-525b-11ea-83a0-1f4b42b91bb7.png" width="450">
+
+
+
+
+
+## Executing the tests
+To run the sample project run `mvn clean verify` from the command line.
+
+By default, the tests will run in headless mode. You can run them in non-headless mode by overriding the `headless.mode` system property, e.g.
+```json
+$ mvn clean verify -Dheadless.mode=false
+```
+
+## Test Results
+The test results will be recorded in the `target/site/serenity` directory.
+If all goes well, you should see something like this:
+
+
+
+<img src="https://user-images.githubusercontent.com/57501449/74771301-2fdbf780-528e-11ea-8f54-dca76b58d9ff.png" width="600">
+
+
