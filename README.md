@@ -33,7 +33,7 @@ Or simply [download a zip](https://github.com/pisqa/serenity-cucumber-selenium-r
 
 
 ## Executing the tests
-To run the sample project run `mvn clean verify` from the command line.
+To run the project run `mvn clean verify` from the command line.
 
 By default, the tests will run in headless mode. You can run them in non-headless mode by overriding the `headless.mode` system property, e.g.
 ```json
