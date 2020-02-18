@@ -32,9 +32,6 @@ Or simply [download a zip](https://github.com/pisqa/serenity-cucumber-selenium-r
 <img src="https://user-images.githubusercontent.com/57501449/74740696-b1fef880-525b-11ea-83a0-1f4b42b91bb7.png" width="450">
 
 
-
-
-
 ## Executing the tests
 To run the sample project run `mvn clean verify` from the command line.
 
@@ -49,6 +46,6 @@ If all goes well, you should see something like this:
 
 
 
-<img src="https://user-images.githubusercontent.com/57501449/74771301-2fdbf780-528e-11ea-8f54-dca76b58d9ff.png" width="600">
+<img src="https://user-images.githubusercontent.com/57501449/74771301-2fdbf780-528e-11ea-8f54-dca76b58d9ff.png" width="800">
 
 
