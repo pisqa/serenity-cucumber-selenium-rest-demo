@@ -5,6 +5,8 @@ The project tests the [Trello](https://trello.com) online team collaboration app
 - create trello boards from templates - this scenario is implemented via the UI with Selenium
 - perform various board actions and verify the activity log - this scenario is implemented via the publicly available [trello api](https://developers.trello.com/reference#introduction) with REST Assured.
 
+## Prerequisites
+This project is targeted to Windows O.S. (but can probably be adapted to linux or mac with little effort). It requires [maven](http://maven.apache.org/download.cgi) and [chrome browser](https://www.google.com/chrome/) to be installed.
 
 
 ## Get the code
