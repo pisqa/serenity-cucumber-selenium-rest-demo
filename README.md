@@ -24,7 +24,8 @@ Or simply [download a zip](https://github.com/pisqa/serenity-cucumber-selenium-r
 1. **Do NOT use a live trello account - the test tear-down step deletes all boards from the configured account!**
 1. create a new trello [account](https://trello.com/signup)
 1. get the API Key and Token for your account - log into trello and go to [https://trello.com/app-key](https://trello.com/app-key):
-    
+![image](https://user-images.githubusercontent.com/57501449/74966117-c4716180-5416-11ea-8d6e-6877642a6a09.png)
+
 <img src="https://user-images.githubusercontent.com/57501449/74739798-e4a7f180-5259-11ea-8a33-6549c60767a9.png" width="450" >
 
 1.   Edit  `serenity-cucumber-selenium-rest-demo/src/test/resources/serenity.conf`
