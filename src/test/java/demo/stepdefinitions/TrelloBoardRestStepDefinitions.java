@@ -7,18 +7,18 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import demo.boards.BoardActions;
-import demo.boards.SetUpAndTearDown;
+import demo.boards.TearDown;
 import io.cucumber.datatable.DataTable;
 import net.thucydides.core.annotations.Steps;
 
 public class TrelloBoardRestStepDefinitions {
 
-    @Steps SetUpAndTearDown setUpAndTearDown;
+    @Steps TearDown tearDown;
     @Steps BoardActions boardActions;
 
     @Before
     public void setUp() {
-        setUpAndTearDown.setUp();
+        tearDown.tearDown();
     }
 
     @Given("I create a new board called {string}")
@@ -88,6 +88,6 @@ public class TrelloBoardRestStepDefinitions {
 
     @After
     public void tearDown() {
-        setUpAndTearDown.tearDown();
+        tearDown.tearDown();
     }
 }
