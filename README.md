@@ -21,7 +21,7 @@ Or simply [download a zip](https://github.com/pisqa/serenity-cucumber-selenium-r
 
 ## Configure trello credentials
 
-1. **Do NOT use a live trello account - the test tear-down step deletes all boards from the configuredaccount!**
+1. **Do NOT use a live trello account - the test tear-down step deletes all boards from the configured account!**
 1. create a new trello [account](https://trello.com/signup)
 1. get the API Key and Token for your account - log into trello and go to [https://trello.com/app-key](https://trello.com/app-key):
     
