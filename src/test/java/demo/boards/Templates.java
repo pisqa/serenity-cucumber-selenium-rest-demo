@@ -38,6 +38,7 @@ public class Templates extends UIInteractionSteps {
     @Step("Create board from template")
     public void createBoardFromTemplate(String board) {
 
+        wait.until(ExpectedConditions.visibilityOfElementLocated(TemplateForm.TEMPLATES_VIEW_BUTTON));
         $(TemplateForm.TEMPLATES_VIEW_BUTTON).click();
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(TemplateForm.CREATE_BOARD_FROM_TEMPLATE_BUTTON));
